@@ -1,13 +1,13 @@
 title: Yongbin Feng
 position: Postdoctoral Research Associate
-affiliation: Fermi National Accelerator Laboratory
-email: yourname (at) fnal.gov
+affiliation: Fermilab
+email: yfeng (at) fnal.gov
 keywords: minimal academic
 github_link: https://github.com/yongbinfeng
 linkedin: https://www.linkedin.com/in/yongbin-feng-433962158/
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
+avatar: ./assets/img/yongbin_feng.png
+favicon: ./assets/img/smp.png
+favicon_dark: ./assets/img/smp_dark.png
+description: Yongbin Feng's homepage
 canonical: https://yongbinfeng.github.io
 remote_theme: yaoyao-liu/minimal-light
