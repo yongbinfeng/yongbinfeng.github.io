@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am Yongbin Feng (冯永彬 in Chinese), a postdoctoral research associate at Fermi National Accelerator Laboratory studying experimental particle physics (HEP-ex). More information can be found in my CV [[here](https://cernbox.cern.ch/index.php/s/axNsuZwwfxOD46A)].
+I am Yongbin Feng (冯永彬 in Chinese), a postdoctoral research associate at Fermi National Accelerator Laboratory studying experimental particle physics (HEP-ex). More information can be found in my CV [<a href="files/cvcv_feng.pdf">here/</a>)].
 
 ## Research Interests
 
@@ -12,6 +12,11 @@ I am Yongbin Feng (冯永彬 in Chinese), a postdoctoral research associate at F
 - **SONIC:** Services of Network Inferences on Coprocessors
 - **Machine Learning Application in HEP:** pileup mitigation
 - **DarkQuest:** proton fixed-target experiment to search for light dark matter
+
+## Education
+
+- **Physics PhD:** University of Maryland, College Park, Maryland, USA, Aug. 2015 to Oct. 2020
+- **Physics BS:** University of Science and Technology of China, Hefei, Anhui, China, Aug. 2011 to Jun. 2015
 
 ## News
 
