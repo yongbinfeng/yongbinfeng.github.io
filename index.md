@@ -23,3 +23,6 @@ I am Yongbin Feng (冯永彬 in Chinese), a postdoctoral research associate at F
 ## Publications
 
 ## Talks & Seminars
+
+- **DarkQuest: Probing dark sector with a proton fixed-target experiment at Fermilab**<br/><br/>
+ <em>Talk</em> presented at the SYSU-PKU Particle Physics Forum, Virtual, 05/2022. [<a href="files/slides/DQ_PKU_May22.pdf">Slides</a>]
