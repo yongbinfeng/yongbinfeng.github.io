@@ -9,8 +9,12 @@ I am Yongbin Feng (冯永彬 in Chinese), a postdoctoral research associate at F
 **I will be joining Texas Tech University in August 2024**. For potential graduate students and postdocs interested in any of the topics of CMS data analyses, machine learning assisting reconstruction, heterogeneous computings with or without machine learning, and search for dark sector and dark matter at small fixed-target experiments, please **feel free to contact me**! 
 
 ## Work Experience
-- **Assistant Professor of Physics**: <em>Texas Tech University</em>, Lubbock, Texas, USA, 08/2024 - present
-- **Postdoctoral Research Associate**: <em>Fermi National Accelerator Laboratory</em>, Batavia, Illinois, USA, 11/2020 - 07/2024
+- **Assistant Professor of Physics**: 
+  <br>
+<em>Texas Tech University</em>, Lubbock, Texas, USA, 08/2024 - present
+- **Postdoctoral Research Associate**: 
+  <br>
+ <em>Fermi National Accelerator Laboratory</em>, Batavia, Illinois, USA, 11/2020 - 07/2024
 
 ## Education
 
@@ -36,7 +40,6 @@ To be updated
 - <em>Introduction to Graph Neural Networks in High Energy Physics</em>
   <br>
   Discussion led at the **Fermilab Lab-wide AI Meeting**, Batavia, 11/2022 [<a href="files/slides/intro_to_gnn.pdf">Slides</a>].
-
 - <em>DarkQuest: Probing dark sector with a proton fixed-target experiment at Fermilab</em>
   <br>
   Talk presented at the **SYSU-PKU Particle Physics Forum**, Virtual, 05/2022 [<a href="files/slides/DQ_PKU_May22.pdf">Slides</a>].
