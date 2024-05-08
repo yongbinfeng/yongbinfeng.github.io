@@ -6,20 +6,20 @@ layout: homepage
 
 I am Yongbin Feng (冯永彬 in Chinese), a postdoctoral research associate at Fermi National Accelerator Laboratory studying experimental particle physics (HEP-ex). More information can be found in my CV [<a href="files/cv/cv_feng.pdf">here</a>].
 
-**I will be joining Texas Tech University in August 2024**. For potential graduate students and postdocs interested in any of the topics of CMS data analyses, machine learning assisting reconstruction, heterogeneous computings with or without machine learning, and search for dark sector and dark matter at small fixed-target experiments, please **feel free to contact me**! 
+**I will be joining Texas Tech University in August 2024**. For potential graduate students and postdocs interested in any of the topics of CMS data analyses, machine learning assisting reconstruction, heterogeneous computing with or without machine learning, and search for dark sector and dark matter at small fixed-target experiments, please **feel free to contact me**! 
 
 ## Work Experience
-- **Assistant Professor of Physics**: 
-  <br>
-<em>Texas Tech University</em>, Lubbock, Texas, USA, 08/2024 - present
-- **Postdoctoral Research Associate**: 
-  <br>
- <em>Fermi National Accelerator Laboratory</em>, Batavia, Illinois, USA, 11/2020 - 07/2024
+- **Assistant Professor of Physics** at <em>Texas Tech University</em>
+<br>
+Lubbock, Texas, USA, Aug. 2024 - present
+- **Postdoctoral Research Associate** at <em>Fermi National Accelerator Laboratory</em>
+<br> 
+Batavia, Illinois, USA, Nov. 2020 - Jul. 2024
 
 ## Education
 
-- <em>Physics Ph.D.</em>: **University of Maryland, College Park**, Maryland, USA, 08/2015 - 10/2020
-- <em>Physics B.S.</em>: **University of Science and Technology of China**, Hefei, Anhui, China, 08/2011 - 06/2015
+- <em>Physics Ph.D.</em>: **University of Maryland, College Park**, Maryland, USA, Aug. 2015 - Oct. 2020
+- <em>Physics B.S.</em>: **University of Science and Technology of China**, Hefei, Anhui, China, Aug. 2011 - Jun. 2015
 
 ## Research Interests
 
