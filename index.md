@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am Yongbin Feng (冯永彬 in Chinese), a postdoctoral research associate at Fermi National Accelerator Laboratory studying experimental particle physics (HEP-ex). More information can be found in my CV [<a href="files/cv/cv_feng.pdf">here</a>].
+I am Yongbin Feng (冯永彬 in Chinese), a postdoctoral research associate at Fermi National Accelerator Laboratory studying experimental particle physics (HEP-ex). More information can be found in my CV [<a href="https://cernbox.cern.ch/s/xWmiMINKovfBu6t">link</a>].
 
 **I will be joining the physics department of Texas Tech University in August 2024 as an assistant professor**. For potential graduate students and postdocs interested in any of the topics of CMS data analyses, machine learning assisting reconstruction, heterogeneous computing with or without machine learning, and search for dark sector and dark matter at small fixed-target experiments, please **feel free to contact me**! 
 
