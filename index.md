@@ -25,7 +25,7 @@ Batavia, Illinois, USA, Nov. 2020 - Jul. 2024
 
 - **High Precision Electroweak Measurements:** W and Z cross sections, differential cross sections, etc [<a href="https://arxiv.org/abs/2408.03744">Pub</a>]
 - **Advanced (Hadron) Calorimeter R&D:** simulation, reconstruction, and machine learning for (hadron) calorimeter developments [<a href="https://www.depts.ttu.edu/phas/apdl/index.php">More info</a>]
-- **SONIC:** Services of Network Inferences on Coprocessors for CMS and other experiments [<a href="https://arxiv.org/abs/2402.15366">Pub</a>]
+- **SONIC:** Services of Network Inferences on Coprocessors for CMS and other experiments [<a href="https://arxiv.org/abs/2402.15366">Pub</a>] [<a href="https://yongbinfeng.gitbook.io/sonictutorial">Tutorial</a>]
 - **Machine Learning Application in HEP:** pileup mitigation, missing transverse momentum regression, calorimeter clustering and energy regression, etc [<a href="https://arxiv.org/abs/2203.15823">Pub</a>]
 - **DarkQuest:** proton fixed-target experiment to search for dark sector and light dark matter [<a href="https://arxiv.org/abs/2203.08322">Pub</a>]
 
@@ -43,7 +43,7 @@ Batavia, Illinois, USA, Nov. 2020 - Jul. 2024
 - <em>DarkQuest - Searching for light dark matter with a proton fixed-target experiment at Fermilab</em>
   <br>
   Talk presented at the **2022 Phenomenology Symposium**, Pittsburg, Pennsylvania, USA, 05/2022 [<a href="files/slides/DQ_Pheno_May9th_v0.pdf">Slides</a>].
-- <em>Semi-supervised meachine learning for pileup per particle identification with graph neural networks</em>
+- <em>Semi-supervised machine learning for pileup per particle identification with graph neural networks</em>
   <br>
   Talk presented at the **2021 BOOST workshop**, Virtual, 08/2021 [<a href="files/slides/GNNPUPPI_BOOST.pdf">Slides</a>].
 - <em>Searching for light dark matter at Fermilab's proton fixed-target experiment: DarkQuest</em>
