@@ -24,17 +24,11 @@ Batavia, Illinois, USA, Nov. 2020 - Jul. 2024
 ## Research Interests
 
 - **High Precision Electroweak Measurements:** W and Z cross sections, differential cross sections, etc [<a href="https://arxiv.org/abs/2408.03744">Pub</a>]
+- **Advanced (Hadron) Calorimeter R&D:** simulation, reconstruction, and machine learning for (hadron) calorimeter developments [<a href="https://www.depts.ttu.edu/phas/apdl/index.php">More info</a>]
 - **SONIC:** Services of Network Inferences on Coprocessors for CMS and other experiments [<a href="https://arxiv.org/abs/2402.15366">Pub</a>]
 - **Machine Learning Application in HEP:** pileup mitigation, missing transverse momentum regression, calorimeter clustering and energy regression, etc [<a href="https://arxiv.org/abs/2203.15823">Pub</a>]
 - **DarkQuest:** proton fixed-target experiment to search for dark sector and light dark matter [<a href="https://arxiv.org/abs/2203.08322">Pub</a>]
 
-## News
-
-To be updated
-
-## Publications
-
-To be updated
 
 ## Talks & Seminars
 - <em>Introduction to Graph Neural Networks in High Energy Physics</em>
