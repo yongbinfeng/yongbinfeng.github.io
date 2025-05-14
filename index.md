@@ -25,13 +25,13 @@ Batavia, Illinois, USA, Nov. 2020 - Jul. 2024
 
 Inside the CMS experiment:
 - **High Precision Electroweak Measurements:** W and Z cross sections, differential cross sections, etc [<a href="https://arxiv.org/abs/2408.03744">Pub</a>]
-- **SONIC:** Services of Network Inferences on Coprocessors, to improve the performance of (machine learning) inference using coprocessors [<a href="https://arxiv.org/abs/2402.15366">Pub</a>] [<a href="https://yongbinfeng.gitbook.io/sonictutorial">Tutorial</a>]
+- **SONIC:** Services of Network Inferences on Coprocessors, to improve the performance of (machine learning) inference using coprocessors [<a href="https://www.arxiv.org/abs/2501.05520">Pub</a>] [<a href="https://arxiv.org/abs/2402.15366">Pub</a>] [<a href="https://yongbinfeng.gitbook.io/sonictutorial">Tutorial</a>]
 - **HGCal Module Assembly and Performance Studies:** Module assembly for the CMS High Granularity Calorimeter and performance studies with simulations [<a href="https://www.depts.ttu.edu/phas/apdl/HGCAL/index.php">More info</a>]
-- **Machine Learning Application in HEP:** pileup mitigation, missing transverse momentum regression, calorimeter clustering and energy regression, etc [<a href="https://arxiv.org/abs/2203.15823">Pub</a>]
+- **Machine Learning Application in HEP:** pileup mitigation, missing transverse momentum regression, calorimeter clustering and energy regression, etc [<a href="https://cds.cern.ch/record/2931563">DeepMET Pub</a>][<a href="https://arxiv.org/abs/2203.15823">GraphPUPPI Pub</a>]
 
 Outside the CMS experiment:
 - **Advanced (Hadron) Calorimeter R&D:** simulation, reconstruction, and machine learning for (hadron) calorimeter developments [<a href="https://www.depts.ttu.edu/phas/apdl/index.php">More info</a>]
-- **DarkQuest:** proton fixed-target experiment to search for dark sector and light dark matter [<a href="https://arxiv.org/abs/2203.08322">Pub</a>]
+- **DarkQuest:** proton fixed-target experiment to search for dark sector and light dark matter [<a href="https://arxiv.org/abs/2203.08322">White Paper</a>] [<a href="https://www.arxiv.org/abs/2502.20590">EMCal Test beam</a>]
 
 
 ## Talks & Seminars
