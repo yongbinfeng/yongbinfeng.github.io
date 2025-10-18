@@ -30,7 +30,7 @@ Inside the CMS experiment:
 - **Machine Learning Application in HEP:** pileup mitigation, missing transverse momentum regression, calorimeter clustering and energy regression, etc [<a href="https://www.arxiv.org/abs/2509.12012">DeepMET Pub</a>][<a href="https://arxiv.org/abs/2203.15823">GraphPUPPI Pub</a>]
 
 Outside the CMS experiment:
-- **Advanced (Hadron) Calorimeter R&D:** simulation, reconstruction, and machine learning for (hadron) calorimeter developments [<a href="https://www.depts.ttu.edu/phas/apdl/index.php">More info (Paper in preparation)</a>]
+- **Advanced (Hadron) Calorimeter R&D:** simulation, reconstruction, and machine learning for (hadron) calorimeter developments [<a href="https://www.depts.ttu.edu/phas/apdl/index.php">More info</a>] [<a href="https://indico.global/event/14966/contributions/133851/">CPAD update1</a>, <a href="https://indico.global/event/14966/contributions/133852/">update2</a>](Paper under preparation)
 - **DarkQuest:** proton fixed-target experiment to search for dark sector and light dark matter [<a href="https://arxiv.org/abs/2203.08322">White Paper</a>] [<a href="https://www.arxiv.org/abs/2502.20590">EMCal Test beam</a>]
 
 
