@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theoretical Framework | Particle Physics Archive</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Fira+Code&display=swap"
+        rel="stylesheet">
+
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true,
+                packages: { '[+]': ['ams', 'physics', 'cancel'] }
+            },
+            options: {
+                ignoreHtmlClass: 'tex2jax_ignore',
+                processHtmlClass: 'tex2jax_process'
+            },
+            loader: { load: ['[tex]/ams', '[tex]/physics', '[tex]/cancel'] }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcfcfd;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        .hero {
+            background: #4b1248;
+            background: linear-gradient(to right, #702082, #4b1248);
+            color: white;
+            padding: 60px 0;
+            border-bottom: 5px solid #d63384;
+        }
+
+        .theory-card {
+            border: none;
+            border-radius: 15px;
+            background: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            margin-bottom: 30px;
+            padding: 25px;
+            border-top: 4px solid #702082;
+        }
+
+        .theory-header {
+            color: #4b1248;
+            font-weight: 700;
+            border-left: 5px solid #d63384;
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        .formula-box {
+            background: #fdf2f8;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Fira Code', monospace;
+            text-align: center;
+            margin: 15px 0;
+            border: 1px solid #f9a8d4;
+            overflow-x: auto;
+        }
+
+        .btn-back {
+            margin-bottom: 20px;
+            display: inline-block;
+            text-decoration: none;
+            color: #702082;
+            font-weight: bold;
+        }
+
+        .paper-cite {
+            font-family: 'Fira Code', monospace;
+            font-size: 0.8rem;
+            background: #f1f5f9;
+            padding: 4px 10px;
+            border-radius: 6px;
+            display: inline-block;
+            color: #334155;
+            text-decoration: none;
+            border: 1px solid #e2e8f0;
+        }
+
+        .paper-cite:hover {
+            background: #e2e8f0;
+            color: #000;
+            border-color: #702082;
+        }
+
+        .summary-table thead {
+            background: #1a2a6c;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="tex2jax_process">
+    <header class="hero text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">The Theoretical Framework</h1>
+            <p class="lead">Journey from Symmetry to the Standard Model</p>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <a href="index.html" class="btn-back">&larr; Back to Master Portal</a>
+
+        <section id="master-table">
+            <h2 class="theory-header">Theoretical Landmarks: Proposal to Proof</h2>
+            <div class="table-responsive theory-card p-0 overflow-hidden">
+                <table class="table table-hover align-middle mb-0 text-center summary-table">
+                    <thead>
+                        <tr>
+                            <th>Theory Milestone</th>
+                            <th>Key Figures</th>
+                            <th>Central Problem Solved</th>
+                            <th>Primary Verification</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>QED Renormalization</strong></td>
+                            <td>Feynman, Schwinger, Tomonaga</td>
+                            <td>Mathematical Infinities</td>
+                            <td>Lamb Shift / $g-2$</td>
+                        </tr>
+                        <tr>
+                            <td><strong>The Eightfold Way</strong></td>
+                            <td>Gell-Mann, Ne'eman</td>
+                            <td>Particle Zoo Organization</td>
+                            <td>$\Omega^-$ Discovery</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Higgs Mechanism</strong></td>
+                            <td>Higgs, Englert, Brout</td>
+                            <td>Mass of Gauge Bosons</td>
+                            <td>LHC (2012)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Electroweak Unification</strong></td>
+                            <td>Weinberg, Salam, Glashow</td>
+                            <td>EM & Weak Force Merger</td>
+                            <td>Neutral Currents / W & Z</td>
+                        </tr>
+                        <tr>
+                            <td><strong>QCD & Asymptotic Freedom</strong></td>
+                            <td>Gross, Wilczek, Politzer</td>
+                            <td>Quark Confinement Physics</td>
+                            <td>3-Jet Events (DESY)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gauge Renormalizability</strong></td>
+                            <td>'t Hooft, Veltman</td>
+                            <td>Theoretical Consistency</td>
+                            <td>Standard Model Success</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="symmetries">
+            <h2 class="theory-header">1. The Gauge Symmetry: $SU(3)_C \times SU(2)_L \times U(1)_Y$</h2>
+            <div class="theory-card">
+                <p>The Standard Model is a <strong>Gauge Theory</strong>. The interactions are defined by requiring the
+                    laws of physics to remain invariant under local symmetry transformations.</p>
+                <div class="table-responsive">
+                    <table class="table table-bordered text-center">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Group</th>
+                                <th>Force</th>
+                                <th>Mediator</th>
+                                <th>Theory Milestone</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>$U(1)_Y$</td>
+                                <td>Electromagnetism</td>
+                                <td>Photon ($\gamma$)</td>
+                                <td>QED Renormalization (1948)</td>
+                            </tr>
+                            <tr>
+                                <td>$SU(2)_L$</td>
+                                <td>Weak Force</td>
+                                <td>$W^\pm, Z^0$</td>
+                                <td>Electroweak Unification (1967)</td>
+                            </tr>
+                            <tr>
+                                <td>$SU(3)_C$</td>
+                                <td>Strong Force</td>
+                                <td>Gluons ($g$)</td>
+                                <td>Asymptotic Freedom (1973)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="qed">
+            <h2 class="theory-header">2. QED & Renormalization</h2>
+            <div class="theory-card">
+                <p><strong>The Problem:</strong> Loops in Feynman diagrams led to infinite results for energy and
+                    charge.</p>
+                <p><strong>The Solution:</strong> Feynman, Schwinger, and Tomonaga proved that these infinities could be
+                    absorbed into "bare" mass and charge. Later, <strong>Gerard 't Hooft</strong> and <strong>Martinus
+                        Veltman</strong> proved that even "broken" gauge theories like the Electroweak theory are
+                    renormalizable.</p>
+
+
+                <div class="formula-box">
+                    $$ \mathcal{L}_{QED} = \bar{\psi}(i\gamma^\mu D_\mu - m)\psi - \frac{1}{4}F_{\mu\nu}F^{\mu\nu} $$
+                    <p class="small text-muted">Where $D_\mu = \partial_\mu + ieA_\mu$ is the covariant derivative
+                        ensuring $U(1)$ gauge invariance.</p>
+                </div>
+                <a href="https://doi.org/10.1103/PhysRev.76.769" class="paper-cite" target="_blank">Feynman (1949)</a>
+                <a href="https://doi.org/10.1016/0550-3213(71)90139-8" class="paper-cite" target="_blank">'t Hooft
+                    (1971)</a>
+            </div>
+        </section>
+
+        <section id="strong">
+            <h2 class="theory-header">3. Gell-Mann, QCD, and Asymptotic Freedom</h2>
+            <div class="theory-card">
+                <p>In the early 1960s, the "Particle Zoo" of newly discovered hadrons was chaotic. Murray Gell-Mann and
+                    Yuval Ne'eman realized these particles could be classified using the <strong>Special Unitary Group
+                        $SU(3)$</strong>. This led to the "Eightfold Way," a periodic table for subatomic particles.</p>
+
+                <p><strong>The Quark Proposal:</strong> Gell-Mann postulated that the $SU(3)$ symmetry existed because
+                    hadrons were composed of three fundamental building blocks: the <strong>Up ($u$)</strong>,
+                    <strong>Down ($d$)</strong>, and <strong>Strange ($s$)</strong> quarks. He used the group
+                    representation theory to show that baryons are formed from three quarks:
+                </p>
+
+
+
+                <div class="formula-box">
+                    $$ \mathbf{3} \otimes \mathbf{3} \otimes \mathbf{3} = \mathbf{10}_S \oplus \mathbf{8}_M \oplus
+                    \mathbf{8}_M \oplus \mathbf{1}_A $$
+                    <p class="small text-muted">Baryons like the Proton and Neutron belong to the <strong>Octet
+                            ($\mathbf{8}$)</strong>, while the $\Omega^-$ belongs to the <strong>Decuplet
+                            ($\mathbf{10}$)</strong>.</p>
+                </div>
+
+                <p><strong>Impact:</strong> The 1964 discovery of the $\Omega^-$ particle—with exactly the mass and
+                    strangeness predicted by Gell-Mann—proved the mathematical reality of quarks.</p>
+
+                <p>While Gell-Mann's model described the "flavor" of quarks, it lacked a dynamical theory of how they
+                    stayed together. <strong>Quantum Chromodynamics (QCD)</strong> was developed to describe the
+                    <strong>Strong Interaction</strong>, mediated by the exchange of <strong>Gluons</strong>.
+                </p>
+
+                <p><strong>Color Charge:</strong> Quarks carry a new kind of charge called "Color" (Red, Green, Blue).
+                    Unlike the single charge of electromagnetism, QCD is a <strong>Non-Abelian Gauge Theory</strong>.
+                    This means gluons themselves carry color charge and can interact with one another.</p>
+
+
+
+                <div class="formula-box">
+                    $$ \mathcal{L}_{QCD} = \sum_{q} \bar{\psi}_q (i\gamma^\mu D_\mu - m_q)\psi_q -
+                    \frac{1}{4}G^a_{\mu\nu}G_a^{\mu\nu} $$
+                    <p class="small text-muted">The field strength tensor \( G^a_{\mu\nu} \) contains a quadratic term
+                        \( g f^{abc} A^b_\mu A^c_\nu \) which represents gluon-gluon coupling.</p>
+                </div>
+
+                <p><strong>The Paradox:</strong> Experiments showed that at very high energies, quarks inside a proton
+                    behave as if they are free (Partons). However, no one has ever observed a single, isolated quark
+                    (Confinement).</p>
+
+                <p><strong>The Breakthrough (1973):</strong> Gross, Wilczek, and Politzer discovered that in $SU(3)$
+                    gauge theories, the "running" of the coupling constant is reversed compared to QED. As the distance
+                    between quarks decreases (high energy), the strong force approaches zero.</p>
+
+
+
+                <div class="formula-box">
+                    $$ \alpha_s(Q^2) \approx \frac{1}{\beta_0 \ln(Q^2 / \Lambda_{QCD}^2)} $$
+                    <p class="small text-muted">As \( Q^2 \to \infty \), \( \alpha_s \to 0 \) (Asymptotic Freedom). As
+                        \( Q^2 \to 0 \), \( \alpha_s \to \infty \) (Confinement).</p>
+                </div>
+
+                <p><strong>Significance:</strong> This allows us to use perturbative math for high-energy collisions at
+                    the LHC, while explaining why quarks are forever locked inside protons at our energy scales.</p>
+                <a href="https://doi.org/10.1103/PhysRevLett.30.1343" class="paper-cite" target="_blank">Gross &
+                    Wilczek, PRL 30 (1973)</a>
+                <a href="https://doi.org/10.1016/0031-9163(64)90687-5" class="paper-cite" target="_blank">Gell-Mann
+                    (1964)</a>
+            </div>
+        </section>
+
+        <section id="ew">
+            <h2 class="theory-header">4. The Electroweak Sector & Higgs Mechanism</h2>
+            <div class="theory-card">
+                <p>Weinberg and Salam unified the Weak and Electromagnetic forces. To allow $W$ and $Z$ bosons to have
+                    mass without violating gauge symmetry, the <strong>Higgs Mechanism</strong> was introduced.</p>
+
+                <div class="formula-box">
+                    $$ \mathcal{L}_{SM} = \underbrace{-\frac{1}{4}F_{\mu\nu}F^{\mu\nu}}_{\text{Gauge}} +
+                    \underbrace{i\bar{\psi}\cancel{D}\psi}_{\text{Matter}} + \underbrace{(D_\mu \phi)^\dagger (D^\mu
+                    \phi) -
+                    V(\phi)}_{\text{Higgs}} + \underbrace{\bar{\psi}_i y_{ij} \psi_j \phi}_{\text{Yukawa}} $$
+                </div>
+
+                <p class="sub-header">Breakdown of the Terms:</p>
+                <ul>
+                    <li><strong>Gauge Sector:</strong> Describes the kinetic energy of the force carriers (bosons) and
+                        their
+                        self-interactions.</li>
+                    <li><strong>Matter Sector:</strong> Defines how fermions (quarks and leptons) move and interact with
+                        the
+                        gauge fields via the covariant derivative.</li>
+                    <li><strong>Higgs Sector:</strong> Triggers <em>Spontaneous Symmetry Breaking</em>. The potential
+                        $V(\phi)$ allows the vacuum to acquire a non-zero energy, giving mass to the $W$ and $Z$ bosons.
+                    </li>
+                    <li><strong>Yukawa Sector:</strong> Describes the coupling between the Higgs field and fermions.
+                        This is
+                        the mechanism that generates the masses for quarks and charged leptons.</li>
+                </ul>
+
+                <a href="https://doi.org/10.1103/PhysRevLett.19.1264" class="paper-cite" target="_blank">Weinberg
+                    (1967)</a>
+                <a href="https://doi.org/10.1103/PhysRevLett.13.508" class="paper-cite" target="_blank">Higgs (1964)</a>
+            </div>
+
+
+        </section>
+
+        <section id="mixing">
+            <h2 class="theory-header">5. Symmetry Violations & Mixing (CKM/PMNS)</h2>
+            <div class="theory-card">
+                <p><strong>Parity Violation:</strong> Lee and Yang proposed that the Weak force distinguishes between
+                    left and right.</p>
+                <p><strong>Mixing:</strong> Quarks and Neutrinos do not exist in pure "mass" states during weak
+                    interactions. The <strong>CKM Matrix</strong> (Quarks) and <strong>PMNS Matrix</strong> (Neutrinos)
+                    describe this flavor mixing.</p>
+
+                <p>When a $W$ boson is exchanged, a $u$-type quark can transition into any $d$-type quark ($d, s, \text{
+                    or } b$). The CKM matrix elements $V_{ij}$ represent the probability amplitude of these transitions.
+                </p>
+
+                <div class="formula-box">
+                    $$ \begin{pmatrix} d' \\ s' \\ b' \end{pmatrix} = \begin{pmatrix} V_{ud} & V_{us} & V_{ub} \\ V_{cd}
+                    & V_{cs} & V_{cb} \\ V_{td} & V_{ts} & V_{tb} \end{pmatrix} \begin{pmatrix} d \\ s \\ b
+                    \end{pmatrix} $$
+                </div>
+
+                <p class="sub-header">Physical Implications:</p>
+                <ul>
+                    <li><strong>Generation Preference:</strong> Diagonal elements (like $V_{ud}$) are near 1, meaning
+                        quarks stay within their generation most of the time.</li>
+                    <li><strong>CP Violation:</strong> The matrix contains a single complex phase that allows matter and
+                        antimatter to behave differently, explaining why the universe is not empty.</li>
+                </ul>
+
+                <p class="sub-header">The PMNS Matrix (Neutrinos)</p>
+                <div class="formula-box">
+                    \[ U_{PMNS} = \begin{pmatrix} U_{e1} & U_{e2} & U_{e3} \\ U_{\mu 1} & U_{\mu 2} & U_{\mu 3} \\
+                    U_{\tau 1} & U_{\tau 2} & U_{\tau 3} \end{pmatrix} \]
+                    $$ \ket{\nu_\alpha} = \sum_i U_{\alpha i}^* \ket{\nu_i} $$
+                </div>
+                <a href="https://doi.org/10.1143/PTP.49.652" class="paper-cite" target="_blank">Kobayashi & Maskawa
+                    (1973)</a>
+                <a href="https://doi.org/10.1143/PTP.28.870" class="paper-cite" target="_blank">Maki, Nakagawa, Sakata
+                    (1962)</a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p>&copy; 2025 Subatomic Archive | Generated by Google Gemini | MathJax 3.2</p>
+        <p class="small opacity-75">
+            This entire site, including its mathematical Lagrangians and historical timelines, was
+            generated by <strong>Gemini</strong>.</p>
+        <p class="small opacity-75">Content is intended for educational synthesis and
+            <strong>must be verified</strong> against peer-reviewed literature for research purposes.
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subatomic Archive | Master Index</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Fira+Code&display=swap"
+        rel="stylesheet">
+
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true
+            },
+            options: {
+                processHtmlClass: 'tex2jax_process'
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f9;
+            color: #2c3e50;
+        }
+
+        .hero {
+            background: #0f2027;
+            background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+            color: white;
+            padding: 60px 0;
+            border-bottom: 5px solid #0d6efd;
+        }
+
+        .summary-table thead {
+            background: #1a2a6c;
+            color: white;
+            position: sticky;
+            top: 0;
+        }
+
+        .badge-theory {
+            background-color: #d63384;
+            color: white;
+            padding: 4px 8px;
+            font-size: 0.7rem;
+        }
+
+        .badge-exp {
+            background-color: #0d6efd;
+            color: white;
+            padding: 4px 8px;
+            font-size: 0.7rem;
+        }
+
+        .badge-bsm {
+            background-color: #6610f2;
+            color: white;
+            padding: 4px 8px;
+            font-size: 0.7rem;
+        }
+
+        .paper-link {
+            font-family: 'Fira Code', monospace;
+            font-size: 0.75rem;
+            text-decoration: none;
+            color: #0d6efd;
+            font-weight: bold;
+            border: 1px solid #0d6efd;
+            padding: 2px 5px;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+
+        .paper-link:hover {
+            background: #0d6efd;
+            color: white;
+        }
+
+        .table-container {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .name-bold {
+            font-weight: 700;
+            color: #1a2a6c;
+        }
+
+        tr:hover {
+            background-color: #f1f8ff !important;
+        }
+    </style>
+</head>
+
+<body class="tex2jax_process">
+    <header class="hero text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Particle Physics Portal</h1>
+            <p class="lead">Chronicle of Theory, Experiment, and the Pioneers of the Subatomic World</p>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row g-4 mb-5 text-center">
+            <div class="col-md-4"><a href="experiments.html"
+                    class="btn btn-outline-primary w-100 py-3 fw-bold">Experimental Archive</a></div>
+            <div class="col-md-4"><a href="theory.html" class="btn btn-outline-danger w-100 py-3 fw-bold">Theory
+                    Framework</a></div>
+            <div class="col-md-4"><a href="technical.html" class="btn btn-outline-dark w-100 py-3 fw-bold">Technical
+                    Machinery</a></div>
+        </div>
+
+        <h2 class="mb-4">Master Scoreboard (1897 &ndash; 2012)</h2>
+
+        <div class="table-container mb-5">
+            <table class="table table-hover align-middle mb-0 text-center">
+                <thead>
+                    <tr>
+                        <th style="width: 8%;">Year</th>
+                        <th style="width: 25%;">Milestone / Particle</th>
+                        <th style="width: 25%;">Key Figures / Collaboration</th>
+                        <th style="width: 12%;">Type</th>
+                        <th style="width: 30%;">Foundational Paper / DOI</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1897</td>
+                        <td>Electron ($e^-$)</td>
+                        <td class="name-bold">J.J. Thomson</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1080/14786449708621070" target="_blank" class="paper-link">Phil.
+                                Mag. 44, 293</a></td>
+                    </tr>
+                    <tr>
+                        <td>1928</td>
+                        <td>Antimatter Prediction</td>
+                        <td class="name-bold">P.A.M. Dirac</td>
+                        <td><span class="badge badge-theory">Theory</span></td>
+                        <td><a href="https://doi.org/10.1098/rspa.1928.0023" target="_blank" class="paper-link">Proc. R.
+                                Soc. A 117</a></td>
+                    </tr>
+                    <tr>
+                        <td>1932</td>
+                        <td>Positron ($e^+$)</td>
+                        <td class="name-bold">Carl Anderson</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1103/PhysRev.43.491" target="_blank" class="paper-link">Phys.
+                                Rev. 43, 491</a></td>
+                    </tr>
+                    <tr>
+                        <td>1936</td>
+                        <td>Muon ($\mu^-$)</td>
+                        <td class="name-bold">Anderson / Neddermeyer</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1103/PhysRev.51.884" target="_blank" class="paper-link">Phys.
+                                Rev. 51, 884</a></td>
+                    </tr>
+                    <tr>
+                        <td>1947</td>
+                        <td>Pion ($\pi^\pm$)</td>
+                        <td class="name-bold">Lattes / Occhialini / Powell</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1038/159694a0" target="_blank" class="paper-link">Nature 159,
+                                694</a></td>
+                    </tr>
+                    <tr>
+                        <td>1956</td>
+                        <td>Neutrino ($\nu_e$)</td>
+                        <td class="name-bold">Reines / Cowan</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1126/science.124.3212.103" target="_blank"
+                                class="paper-link">Science 124, 103</a></td>
+                    </tr>
+                    <tr>
+                        <td>1957</td>
+                        <td>Parity Violation</td>
+                        <td class="name-bold">C.S. Wu / Lee & Yang (Th)</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1103/PhysRev.105.1413" target="_blank" class="paper-link">Phys.
+                                Rev. 105, 1413</a></td>
+                    </tr>
+                    <tr>
+                        <td>1962</td>
+                        <td>Muon Neutrino ($\nu_\mu$)</td>
+                        <td class="name-bold">Lederman / Schwartz / Steinberger</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1103/PhysRevLett.9.36" target="_blank" class="paper-link">PRL 9,
+                                36</a></td>
+                    </tr>
+                    <tr>
+                        <td>1964</td>
+                        <td>Quark Model ($u, d, s$)</td>
+                        <td class="name-bold">Gell-Mann / Zweig</td>
+                        <td><span class="badge badge-theory">Theory</span></td>
+                        <td><a href="https://doi.org/10.1016/0031-9163(64)90687-5" target="_blank"
+                                class="paper-link">Phys. Lett. 8, 214</a></td>
+                    </tr>
+                    <tr>
+                        <td>1964</td>
+                        <td>CP Violation</td>
+                        <td class="name-bold">Cronin / Fitch</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1103/PhysRevLett.13.138" target="_blank" class="paper-link">PRL
+                                13, 138</a></td>
+                    </tr>
+                    <tr>
+                        <td>1967</td>
+                        <td>Standard Model (EW)</td>
+                        <td class="name-bold">Steven Weinberg</td>
+                        <td><span class="badge badge-theory">Theory</span></td>
+                        <td><a href="https://doi.org/10.1103/PhysRevLett.19.1264" target="_blank" class="paper-link">PRL
+                                19, 1264</a></td>
+                    </tr>
+                    <tr>
+                        <td>1973</td>
+                        <td>Asymptotic Freedom</td>
+                        <td class="name-bold">Gross / Wilczek / Politzer</td>
+                        <td><span class="badge badge-theory">Theory</span></td>
+                        <td><a href="https://doi.org/10.1103/PhysRevLett.30.1343" target="_blank" class="paper-link">PRL
+                                30, 1343</a></td>
+                    </tr>
+                    <tr>
+                        <td>1974</td>
+                        <td>Charm Quark ($c$)</td>
+                        <td class="name-bold">Richter (SLAC) / Ting (BNL)</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1103/PhysRevLett.33.1404" target="_blank" class="paper-link">PRL
+                                33, 1404</a></td>
+                    </tr>
+                    <tr>
+                        <td>1975</td>
+                        <td>Tau Lepton ($\tau^-$)</td>
+                        <td class="name-bold">Martin Perl</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1103/PhysRevLett.35.1489" target="_blank" class="paper-link">PRL
+                                35, 1489</a></td>
+                    </tr>
+                    <tr>
+                        <td>1977</td>
+                        <td>Bottom Quark ($b$)</td>
+                        <td class="name-bold">Leon Lederman (E288)</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1103/PhysRevLett.39.252" target="_blank" class="paper-link">PRL
+                                39, 252</a></td>
+                    </tr>
+                    <tr>
+                        <td>1979</td>
+                        <td>Gluon ($g$)</td>
+                        <td class="name-bold">TASSO Collaboration</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1103/PhysRevLett.43.830" target="_blank" class="paper-link">PRL
+                                43, 830</a></td>
+                    </tr>
+                    <tr>
+                        <td>1983</td>
+                        <td>$W^\pm, Z^0$ Bosons</td>
+                        <td class="name-bold">UA1 / UA2 (Rubbia)</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1016/0370-2693(83)91177-2" target="_blank"
+                                class="paper-link">PLB 122, 103</a></td>
+                    </tr>
+                    <tr>
+                        <td>1995</td>
+                        <td>Top Quark ($t$)</td>
+                        <td class="name-bold">CDF / D0 (Fermilab)</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1103/PhysRevLett.74.2626" target="_blank" class="paper-link">PRL
+                                74, 2626</a></td>
+                    </tr>
+                    <tr>
+                        <td>1998</td>
+                        <td>Neutrino Mass</td>
+                        <td class="name-bold">Super-Kamiokande</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1103/PhysRevLett.81.1562" target="_blank" class="paper-link">PRL
+                                81, 1562</a></td>
+                    </tr>
+                    <tr>
+                        <td>2000</td>
+                        <td>Tau Neutrino ($\nu_\tau$)</td>
+                        <td class="name-bold">DONUT Collaboration</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1016/S0370-2693(00)01265-8" target="_blank"
+                                class="paper-link">PLB 487, 1</a></td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>Higgs Boson ($H^0$)</td>
+                        <td class="name-bold">ATLAS / CMS</td>
+                        <td><span class="badge badge-exp">Exp</span></td>
+                        <td><a href="https://doi.org/10.1016/j.physletb.2012.08.020" target="_blank"
+                                class="paper-link">PLB 716, 1</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <hr class="border-secondary my-4">
+            <p class="small opacity-50">&copy; 2025 Subatomic Archive | Open Science Initiative</p>
+
+            <p class="small opacity-75">
+                This entire site, including its mathematical Lagrangians and historical timelines, was
+                generated by <strong>Gemini</strong>.</p>
+            <p class="small opacity-75">Content is intended for educational synthesis and
+                <strong>must be verified</strong> against peer-reviewed literature for research purposes.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

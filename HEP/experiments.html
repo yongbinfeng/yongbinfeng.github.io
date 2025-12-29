@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimental Archive | Particle Physics Archive</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Fira+Code&display=swap"
+        rel="stylesheet">
+
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true
+            },
+            options: {
+                ignoreHtmlClass: 'tex2jax_ignore',
+                processHtmlClass: 'tex2jax_process'
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f9;
+            color: #2c3e50;
+            line-height: 1.7;
+        }
+
+        .hero {
+            background: #003366;
+            background: linear-gradient(to right, #001f3f, #003366);
+            color: white;
+            padding: 60px 0;
+            border-bottom: 5px solid #007bff;
+        }
+
+        .exp-card {
+            border: none;
+            border-radius: 15px;
+            background: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            margin-bottom: 40px;
+            padding: 30px;
+            border-left: 5px solid #007bff;
+        }
+
+        .exp-header {
+            color: #003366;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .summary-table thead {
+            background: #001f3f;
+            color: white;
+        }
+
+        .btn-back {
+            margin-bottom: 20px;
+            display: inline-block;
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+        }
+
+        .paper-cite {
+            font-family: 'Fira Code', monospace;
+            font-size: 0.8rem;
+            background: #e9ecef;
+            padding: 6px 12px;
+            border-radius: 6px;
+            display: inline-block;
+            color: #495057;
+            text-decoration: none;
+            border: 1px solid #ced4da;
+            margin-top: 10px;
+        }
+
+        .paper-cite:hover {
+            background: #dee2e6;
+            color: #000;
+            border-color: #007bff;
+        }
+
+        .discovery-badge {
+            background-color: #e7f1ff;
+            color: #007bff;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        .table-section {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body class="tex2jax_process">
+    <header class="hero text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Experimental Archive</h1>
+            <p class="lead">From Cathode Rays to the Terascale: The Timeline of Discovery</p>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <a href="index.html" class="btn-back">&larr; Back to Master Portal</a>
+
+        <section class="table-section">
+            <h2 class="exp-header">Master Discovery Scoreboard</h2>
+            <div class="table-responsive exp-card p-0 overflow-hidden">
+                <table class="table table-hover align-middle mb-0 text-center summary-table">
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Particle</th>
+                            <th>Lead Figures / Collaboration</th>
+                            <th>Facility / Method</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1897</td>
+                            <td>Electron ($e^-$)</td>
+                            <td>J.J. Thomson</td>
+                            <td>Cavendish Lab (Cathode Rays)</td>
+                        </tr>
+                        <tr>
+                            <td>1936</td>
+                            <td>Muon ($\mu^-$)</td>
+                            <td>Anderson & Neddermeyer</td>
+                            <td>Caltech (Cosmic Rays)</td>
+                        </tr>
+                        <tr>
+                            <td>1956</td>
+                            <td>$e$ Neutrino ($\nu_e$)</td>
+                            <td>Reines & Cowan</td>
+                            <td>Savannah River (Reactor)</td>
+                        </tr>
+                        <tr>
+                            <td>1957</td>
+                            <td>Parity Violation ($P$)</td>
+                            <td>Chien-Shiung Wu</td>
+                            <td>NBS Cryogenics</td>
+                        </tr>
+                        <tr>
+                            <td>1962</td>
+                            <td>$\mu$ Neutrino ($\nu_\mu$)</td>
+                            <td>Lederman, Schwartz, Steinberger</td>
+                            <td>Brookhaven (AGS)</td>
+                        </tr>
+                        <tr>
+                            <td>1964</td>
+                            <td>CP Violation</td>
+                            <td>Cronin & Fitch</td>
+                            <td>Brookhaven</td>
+                        </tr>
+                        <tr>
+                            <td>1969</td>
+                            <td>$u, d$ Quarks</td>
+                            <td>Friedman, Kendall, Taylor</td>
+                            <td>SLAC (DIS)</td>
+                        </tr>
+                        <tr>
+                            <td>1974</td>
+                            <td>Charm Quark ($c$)</td>
+                            <td>Richter & Ting</td>
+                            <td>SLAC / Brookhaven ($J/\psi$)</td>
+                        </tr>
+                        <tr>
+                            <td>1975</td>
+                            <td>Tau Lepton ($\tau^-$)</td>
+                            <td>Martin Perl</td>
+                            <td>SLAC (SPEAR)</td>
+                        </tr>
+                        <tr>
+                            <td>1977</td>
+                            <td>Bottom Quark ($b$)</td>
+                            <td>Leon Lederman</td>
+                            <td>Fermilab ($\Upsilon$ resonance)</td>
+                        </tr>
+                        <tr>
+                            <td>1979</td>
+                            <td>Gluon ($g$)</td>
+                            <td>TASSO / PETRA Collabs.</td>
+                            <td>DESY</td>
+                        </tr>
+                        <tr>
+                            <td>1983</td>
+                            <td>$W, Z$ Bosons</td>
+                            <td>UA1 & UA2 Collabs</td>
+                            <td>CERN (SppS Collider)</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>Top Quark ($t$)</td>
+                            <td>CDF & D0 Collabs</td>
+                            <td>Fermilab (Tevatron)</td>
+                        </tr>
+                        <tr>
+                            <td>1998</td>
+                            <td>Neutrino Mass / Oscillation</td>
+                            <td>Super-Kamiokande</td>
+                            <td>Japan</td>
+                        </tr>
+                        <tr>
+                            <td>2000</td>
+                            <td>$\tau$ Neutrino ($\nu_\tau$)</td>
+                            <td>DONUT Collaboration</td>
+                            <td>Fermilab (Emulsion)</td>
+                        </tr>
+                        <tr>
+                            <td>2012</td>
+                            <td>Higgs Boson ($H^0$)</td>
+                            <td>ATLAS & CMS</td>
+                            <td>CERN (LHC)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="leptons">
+            <h2 class="exp-header">1. The Lepton Families</h2>
+            <div class="exp-card">
+                <div class="discovery-badge">Electron (1897)</div>
+                <p><strong>The Experiment:</strong> J.J. Thomson used cathode ray tubes to demonstrate that rays were
+                    composed of previously unknown negatively charged particles, much smaller than atoms.</p>
+
+
+                <a href="https://doi.org/10.1080/14786449708621070" class="paper-cite">Phil. Mag. 44, 293 (1897)</a>
+            </div>
+
+            <div class="exp-card">
+                <div class="discovery-badge">Muon (1936)</div>
+                <p><strong>The Experiment:</strong> Observed in cosmic rays using a cloud chamber. Its mass was
+                    intermediate between the electron and the proton, leading to the famous quote by I.I. Rabi: <em>"Who
+                        ordered that?"</em></p>
+
+                <a href="https://doi.org/10.1103/PhysRev.51.884" class="paper-cite">Phys. Rev. 51, 884 (1937)</a>
+            </div>
+
+            <div class="exp-card">
+                <div class="discovery-badge">Electron Neutrino (1956)</div>
+                <p><strong>The Experiment:</strong> Reines and Cowan detected the flux from a nuclear reactor via
+                    <strong>Inverse Beta Decay</strong>. This provided the first physical proof of the neutrino's
+                    existence.
+                </p>
+                <div class="text-center my-3">$\bar{\nu}_e + p \to e^+ + n$</div>
+                <a href="https://doi.org/10.1126/science.124.3212.103" class="paper-cite">Science 124, 103 (1956)</a>
+            </div>
+
+            <div class="exp-card">
+                <div class="discovery-badge">Muon Neutrino (1962)</div>
+                <p><strong>The Experiment:</strong> Using the AGS at Brookhaven, researchers showed that neutrinos from
+                    pion decay produced muons but never electrons, proving $\nu_\mu$ and $\nu_e$ are distinct.</p>
+                <a href="https://doi.org/10.1103/PhysRevLett.9.36" class="paper-cite">PRL 9, 36 (1962)</a>
+            </div>
+
+            <div class="exp-card">
+                <div class="discovery-badge">Tau Lepton (1975)</div>
+                <p><strong>The Experiment:</strong> Martin Perl detected "e-mu" events at the SPEAR storage ring, which
+                    could only be explained by the decay of a new, heavy lepton.</p>
+                <a href="https://doi.org/10.1103/PhysRevLett.35.1489" class="paper-cite">PRL 35, 1489 (1975)</a>
+            </div>
+
+            <div class="exp-card">
+                <div class="discovery-badge">Tau Neutrino (2000)</div>
+                <p><strong>The Experiment:</strong> The DONUT collaboration at Fermilab used a neutrino beam and 3D
+                    nuclear emulsion targets to directly image the production and decay of tau leptons.</p>
+
+                <a href="https://doi.org/10.1016/S0370-2693(01)00307-0" class="paper-cite">PLB 504, 218 (2001)</a>
+            </div>
+
+        </section>
+
+        <section id="quarks">
+            <h2 class="exp-header">2. The Quark Generations</h2>
+
+            <div class="exp-card">
+                <div class="discovery-badge">Up, Down, Strange</div>
+                <h5>Deep Inelastic Scattering & The Eightfold Way</h5>
+                <p>Quarks were confirmed as physical constituents (Partons) inside the proton at SLAC. The
+                    <strong>Strange</strong> quark was solidified by the discovery of the predicted $\Omega^-$ baryon.
+                </p>
+
+                <a href="https://doi.org/10.1103/PhysRevLett.23.930" class="paper-cite">PRL 23, 930 (1969)</a>
+            </div>
+
+            <div class="exp-card">
+                <div class="discovery-badge">Charm</div>
+                <h5>The November Revolution (1974)</h5>
+                <p>Simultaneous discovery of the $J/\psi$ resonance (a $c\bar{c}$ state) at SLAC and BNL. This proved
+                    the 4th quark existed and confirmed the GIM Mechanism.</p>
+
+                <a href="https://doi.org/10.1103/PhysRevLett.33.1404" class="paper-cite">PRL 33, 1404 (1974)</a>
+            </div>
+
+            <div class="exp-card">
+                <div class="discovery-badge">Bottom & Top</div>
+                <h5>The Fermilab Discoveries (1977 & 1995)</h5>
+                <p>The Bottom quark appeared as the $\Upsilon$ (Upsilon) resonance. The Top quark, roughly as heavy as a
+                    gold atom, required the Tevatron's full energy to produce $t\bar{t}$ pairs.</p>
+
+                <a href="https://doi.org/10.1103/PhysRevLett.74.2626" class="paper-cite">PRL 74, 2626 (1995)</a>
+            </div>
+        </section>
+
+        <section id="bosons">
+            <h2 class="exp-header">3. Force Carriers & The Higgs</h2>
+
+            <div class="exp-card">
+                <div class="discovery-badge">Gluon (1979)</div>
+                <p><strong>The Experiment:</strong> Discovery of <strong>Three-Jet Events</strong> at the PETRA storage
+                    ring (DESY). The third jet was identified as a gluon radiated from a quark.</p>
+
+                <a href="https://doi.org/10.1103/PhysRevLett.43.830" class="paper-cite">PRL 43, 830 (1979)</a>
+            </div>
+
+            <div class="exp-card">
+                <div class="discovery-badge">W & Z Bosons</div>
+                <h5>Electroweak Verification (1983)</h5>
+                <p>Carlo Rubbia and the UA1/UA2 teams at CERN found the $W$ and $Z$ bosons, confirming that the weak
+                    force is mediated by massive gauge particles.</p>
+
+                <a href="https://doi.org/10.1016/0370-2693(83)91177-2" class="paper-cite">PLB 122, 103 (1983)</a>
+            </div>
+
+            <div class="exp-card">
+                <div class="discovery-badge">Higgs Boson</div>
+                <h5>The LHC Discovery (2012)</h5>
+                <p>Observation of a new boson decaying into $\gamma\gamma$ and $ZZ^*$. This confirmed the mechanism of
+                    <strong>Spontaneous Symmetry Breaking</strong> and the origin of fundamental mass.
+                </p>
+
+                <a href="https://doi.org/10.1016/j.physletb.2012.08.020" class="paper-cite">PLB 716, 1 (2012)</a>
+            </div>
+        </section>
+
+        <section id="symmetry-violations">
+            <h2 class="exp-header">4. Symmetry Violations</h2>
+            <div class="exp-card">
+                <div class="discovery-badge">Parity Violation (1957)</div>
+                <p><strong>The Experiment:</strong> Observing the Beta decay of polarized $^{60}\text{Co}$ nuclei.
+                    Electrons were emitted asymmetrically, proving the Weak interaction is left-handed.</p>
+
+                <a href="https://doi.org/10.1103/PhysRev.105.1413" class="paper-cite">Phys. Rev. 105, 1413 (1957)</a>
+            </div>
+
+            <div class="exp-card">
+                <div class="discovery-badge">CP Violation (1964)</div>
+                <p><strong>The Experiment:</strong> Observing the decay of Neutral Kaons ($K_L^0$). A tiny fraction
+                    decayed into two pions, revealing that the universe distinguishes between matter and antimatter.</p>
+                <a href="https://doi.org/10.1103/PhysRevLett.13.138" class="paper-cite">PRL 13, 138 (1964)</a>
+            </div>
+        </section>
+
+        <section id="neutrino-oscillations">
+            <h2 class="exp-header">5. Neutrino Oscillations & Mass</h2>
+            <div class="exp-card">
+                <div class="discovery-badge">Neutrino Oscillation (1998)</div>
+                <p><strong>The Experiment:</strong> Super-Kamiokande observed that the flux of atmospheric muon
+                    neutrinos varied with the distance traveled, proving neutrinos have mass.</p>
+
+                <a href="https://doi.org/10.1103/PhysRevLett.81.1562" class="paper-cite">PRL 81, 1562 (1998)</a>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p>&copy; 2025 Subatomic Archive | Generated by Google Gemini | MathJax 3.2</p>
+        <p class="small opacity-75">
+            This entire site, including its mathematical Lagrangians and historical timelines, was
+            generated by <strong>Gemini</strong>.</p>
+        <p class="small opacity-75">Content is intended for educational synthesis and
+            <strong>must be verified</strong> against peer-reviewed literature for research purposes.
+        </p>
+    </footer>
+</body>
+
+</html>
